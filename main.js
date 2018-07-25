@@ -76,10 +76,17 @@
 
 // console.log("Program Ended");
 
-console.log('Printing The working Directory'+__dirname);
-function doSomeThing()
+// console.log('Printing The working Directory'+__dirname);
+// function doSomeThing()
+// {
+//   console.log('This is a message');
+// }
+// var t  = setTimeout(doSomeThing,4000);
+// clearTimeout(t);
+
+function SetTimeF()
 {
-  console.log('This is a message');
+  console.log('Print some message after 2 sec');
 }
-var t  = setTimeout(doSomeThing,4000);
-clearTimeout(t);
+console.log('Wait for 2 sec to see the message ........................');
+setTimeout(SetTimeF,2000);
