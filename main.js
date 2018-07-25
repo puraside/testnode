@@ -76,7 +76,7 @@
 
 // console.log("Program Ended");
 
-// console.log(__dirname);
+console.log('Printing The working Directory'+__dirname);
 function doSomeThing()
 {
   console.log('This is a message');
