@@ -1,2 +1,2 @@
-console.log('It works!');
-setTimeout(2000);
+var message ='This is a message here!';
+console.log(message);
